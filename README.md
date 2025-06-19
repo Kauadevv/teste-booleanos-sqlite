@@ -31,11 +31,6 @@ O script insere 1 milhão de registros e mede o tempo de execução das queries.
 ## Resultado
 A consulta com valores booleanos foi ligeiramente mais rápida.
 
-No exemplo:
-• Texto ("Sim"): 0.0708 s
-• Booleano (True): 0.0688 s
-
-
 Boas práticas aplicadas ^_^
 Uso de SQLite para facilitar testes locais
 
