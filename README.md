@@ -28,10 +28,6 @@ pip install matplotlib
 python teste_booleanos.py
 O script insere 1 milhão de registros e mede o tempo de execução das queries.
 
-4. Gere o gráfico de comparação (opcional):
-
-python grafico.py
-
 ## Resultado
 A consulta com valores booleanos foi ligeiramente mais rápida.
 
@@ -40,14 +36,7 @@ No exemplo:
 • Booleano (True): 0.0688 s
 
 
-teste-booleanos-sqlite/
-│
-├── teste_booleanos.py        # Gera dados e executa as queries
-├── grafico.py                # Gera gráfico de comparação com matplotlib
-├── comparacao_consultas.png  # Imagem do resultado
-└── README.md
-
-Boas práticas aplicadas
+Boas práticas aplicadas ^_^
 Uso de SQLite para facilitar testes locais
 
 Códigos organizados e comentados
